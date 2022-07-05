@@ -5,4 +5,9 @@ describe('Example Tests Collection', () => {
     const result = sum(1, 2)
     expect(result).toBe(3)
   })
+
+  it('Object assignment', () => {
+    const obj = {}
+    expect(obj).toEqual({})
+  })
 })
