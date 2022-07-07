@@ -25,3 +25,15 @@ describe('Truthy or Falsy', () => {
     expect(undefined).toBeFalsy()
   })
 })
+
+describe('numbers', () => {
+  it('two plus two', () => {
+    const value = 2 + 2
+    expect(value).toBe(4)
+  })
+
+  it('adding floats ', () => {
+    const value = 0.1 * 0.2
+    expect(value).toBeCloseTo(0.2, 0.3)
+  })
+})
