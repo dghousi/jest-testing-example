@@ -47,3 +47,17 @@ describe('strings', () => {
     expect('team').not.toMatch(/I/)
   })
 })
+
+describe('arrays', () => {
+  const shopingList = [
+    'diapers',
+    'kleenex',
+    'trash bags',
+    'paper towels',
+    'milk',
+  ]
+
+  it('check item in the list', () => {
+    expect(shopingList).toContain('milk')
+  })
+})
