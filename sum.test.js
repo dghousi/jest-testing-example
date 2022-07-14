@@ -41,3 +41,9 @@ describe('numbers', () => {
     expect(value).toBeCloseTo(0.2, 0.3)
   })
 })
+
+describe('strings', () => {
+  it('there is no I in team', () => {
+    expect('team').not.toMatch(/I/)
+  })
+})
