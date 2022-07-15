@@ -56,8 +56,9 @@ describe('arrays', () => {
     'paper towels',
     'milk',
   ]
-
+  
   it('check item in the list', () => {
     expect(shopingList).toContain('milk')
   })
+
 })
